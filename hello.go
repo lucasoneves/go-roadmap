@@ -17,7 +17,7 @@ func main() {
 	fmt.Println("Comando escolhido:", comando)
 
 	if comando == 0 {
-
+		fmt.Println("Saindo do programa...")
 	} else if comando == 1 {
 		fmt.Println("Monitorando...")
 	} else if comando == 2 {
