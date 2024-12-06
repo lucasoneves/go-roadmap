@@ -1,17 +1,23 @@
 package main
 
-import "fmt"
-import "os"
-import "net/http"
+import (
+	"fmt"
+	"net/http"
+	"os"
+	"time"
+)
+
+const monitoramentos = 3
+const delay = 5
 
 func main() {
 	showIntro()
 
 	for {
-		showMenu()	
-	
+		showMenu()
+
 		comando := readCommand()
-	
+
 		switch comando {
 		case 1:
 			initMonotiring()
@@ -20,7 +26,7 @@ func main() {
 		case 0:
 			fmt.Println("Saindo do programa...")
 			os.Exit(0)
-	
+
 		default:
 			fmt.Println("Não conheço esse comando...")
 			os.Exit(-1)
@@ -52,12 +58,24 @@ func readCommand() int {
 
 func initMonotiring() {
 	fmt.Println("Monitorando...")
-	site := "https://httpbin.org/status/200"
+	var sites = []string{"https://httpbin.org/status/200", "https://www.frontendmasters.com", "https://www.caelum.com.br"}
 
+	for i := 0; i < monitoramentos; i++ {
+		for i, site := range sites {
+			fmt.Println("Testando site", i, ":", site)
+			testaSite(site)
+		}
+		time.Sleep(delay * time.Second)
+	}
+
+}
+
+func testaSite(site string) {
 	resp, _ := http.Get(site)
 
 	if resp.StatusCode == 200 {
 		fmt.Println("O site", site, "foi carregado com sucesso!")
+		fmt.Println("")
 	} else {
 		fmt.Println("O site", site, "está fora do ar! =(")
 		fmt.Println("Código do erro:", resp.StatusCode)
