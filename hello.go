@@ -58,7 +58,9 @@ func readCommand() int {
 
 func initMonotiring() {
 	fmt.Println("Monitorando...")
-	var sites = []string{"https://httpbin.org/status/200", "https://www.frontendmasters.com", "https://www.caelum.com.br"}
+	// var sites = []string{"https://httpbin.org/status/200", "https://www.frontendmasters.com", "https://www.caelum.com.br"}
+
+	sites := readFileSites()
 
 	for i := 0; i < monitoramentos; i++ {
 		for i, site := range sites {
@@ -80,4 +82,12 @@ func testaSite(site string) {
 		fmt.Println("O site", site, "está fora do ar! =(")
 		fmt.Println("Código do erro:", resp.StatusCode)
 	}
+}
+
+func readFileSites() []string {
+	var sites []string
+	file, _ := os.Open("sites.txt")
+	fmt.Println(file)
+
+	return sites
 }
