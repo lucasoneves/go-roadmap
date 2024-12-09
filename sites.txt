@@ -1,4 +1,4 @@
-www.alura.com.br
-www.frontendmasters.com
-www.magalu.com.br 
-www.skoob.com.br
+https://www.alura.com.br
+https://www.frontendmasters.com
+https://www.magalu.com.br 
+https://www.skoob.com.br

@@ -1,9 +1,12 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"io"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 )
 
@@ -73,7 +76,11 @@ func initMonotiring() {
 }
 
 func testaSite(site string) {
-	resp, _ := http.Get(site)
+	resp, err := http.Get(site)
+
+	if err != nil {
+		fmt.Println("Error ocurred", err)
+	}
 
 	if resp.StatusCode == 200 {
 		fmt.Println("O site", site, "foi carregado com sucesso!")
@@ -86,8 +93,27 @@ func testaSite(site string) {
 
 func readFileSites() []string {
 	var sites []string
-	file, _ := os.Open("sites.txt")
-	fmt.Println(file)
+
+	arquivo, err := os.Open("sites.txt")
+
+	if err != nil {
+		fmt.Println("Ocorreu um erro", err)
+	}
+
+	leitor := bufio.NewReader(arquivo)
+
+	for {
+		linha, err := leitor.ReadString('\n')
+		linha = strings.TrimSpace(linha)
+		sites = append(sites, linha)
+
+		if err == io.EOF {
+			break
+		}
+
+	}
+
+	arquivo.Close()
 
 	return sites
 }
