@@ -1,12 +1,20 @@
-https://www.alura.com.br - online: true
-https://www.frontendmasters.com - online: true
-https://www.magalu.com.br - online: true
-https://www.skoob.com.br - online: true
-https://www.alura.com.br - online: true
-https://www.frontendmasters.com - online: true
-https://www.magalu.com.br - online: true
-https://www.skoob.com.br - online: true
-https://www.alura.com.br - online: true
-https://www.frontendmasters.com - online: true
-https://www.magalu.com.br - online: true
-https://www.skoob.com.br - online: true
+09/12/2024 - 20:02:56 - https://www.alura.com.br - online: true
+09/12/2024 - 20:02:59 - https://www.frontendmasters.com - online: true
+09/12/2024 - 20:02:59 - https://www.magalu.com.br - online: true
+09/12/2024 - 20:02:59 - https://www.skoob.com.br - online: true
+09/12/2024 - 20:03:04 - https://www.alura.com.br - online: true
+09/12/2024 - 20:03:05 - https://www.frontendmasters.com - online: true
+09/12/2024 - 20:03:05 - https://www.magalu.com.br - online: true
+09/12/2024 - 20:03:05 - https://www.skoob.com.br - online: true
+09/12/2024 - 20:03:10 - https://www.alura.com.br - online: true
+09/12/2024 - 20:03:11 - https://www.frontendmasters.com - online: true
+09/12/2024 - 20:03:11 - https://www.magalu.com.br - online: true
+09/12/2024 - 20:03:11 - https://www.skoob.com.br - online: true
+09/12/2024 - 20:03:26 - https://www.alura.com.br - online: true
+09/12/2024 - 20:03:26 - https://www.frontendmasters.com - online: true
+09/12/2024 - 20:03:27 - https://www.magalu.com.br - online: true
+09/12/2024 - 20:03:27 - https://www.skoob.com.br - online: true
+09/12/2024 - 20:03:39 - https://www.alura.com.br - online: true
+09/12/2024 - 20:03:40 - https://www.frontendmasters.com - online: true
+09/12/2024 - 20:03:40 - https://www.magalu.com.br - online: true
+09/12/2024 - 20:03:40 - https://www.skoob.com.br - online: true
