@@ -18,3 +18,15 @@
 09/12/2024 - 20:03:40 - https://www.frontendmasters.com - online: true
 09/12/2024 - 20:03:40 - https://www.magalu.com.br - online: true
 09/12/2024 - 20:03:40 - https://www.skoob.com.br - online: true
+11/12/2024 - 17:18:32 - https://www.alura.com.br - online: true
+11/12/2024 - 17:18:35 - https://www.frontendmasters.com - online: true
+11/12/2024 - 17:18:35 - https://www.magalu.com.br - online: true
+11/12/2024 - 17:18:36 - https://www.skoob.com.br - online: true
+11/12/2024 - 17:18:41 - https://www.alura.com.br - online: true
+11/12/2024 - 17:18:41 - https://www.frontendmasters.com - online: true
+11/12/2024 - 17:18:41 - https://www.magalu.com.br - online: true
+11/12/2024 - 17:18:41 - https://www.skoob.com.br - online: true
+11/12/2024 - 17:18:47 - https://www.alura.com.br - online: true
+11/12/2024 - 17:18:47 - https://www.frontendmasters.com - online: true
+11/12/2024 - 17:18:47 - https://www.magalu.com.br - online: true
+11/12/2024 - 17:18:47 - https://www.skoob.com.br - online: true
